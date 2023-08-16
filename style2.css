@@ -3,11 +3,12 @@ body{
     margin: 0;
     height: 100vh;
     width: auto;
+    /*It is used to make the box size of exact screen size*/
     box-sizing: border-box;
 }
 .navbar{
     position: fixed;
-    display: flex;
+    display: flex;/*gap property is not only used in grid but also in flex*/
     background-color: #6F6AF7;
     top: 0;
     width: 100%;
@@ -24,8 +25,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 70px 0 50px;
-    margin-left: 10px;
+    padding: 0 10px 0 50px;
+    margin-left: 50px;
 }
 #links a{
     font-size: 1.5rem;
@@ -40,8 +41,9 @@ body{
     padding-left: 20px;
 }
 #searchbar{
-    margin-right: 80px;
-    padding: 25px 50px 10px 50px;
+    margin-right: 20px;
+    margin-left: 0px;
+    padding: 25px 10px 10px 10px;
 }
 span{
     background-color: white;
