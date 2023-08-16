@@ -3,12 +3,11 @@ body{
     margin: 0;
     height: 100vh;
     width: auto;
-    /*It is used to make the box size of exact screen size*/
     box-sizing: border-box;
 }
 .navbar{
     position: fixed;
-    display: flex;/*gap property is not only used in grid but also in flex*/
+    display: flex;
     background-color: #6F6AF7;
     top: 0;
     width: 100%;
